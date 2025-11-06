@@ -1,6 +1,6 @@
 services:
   web:
-    image: atuljkamble/docker-flask-app:latest
+    image: docker.io/atuljkamble/pythonflaskapp
     build: .
     ports: ["5000:5000"]
     restart: unless-stopped
