@@ -3,4 +3,5 @@ services:
     image: docker.io/atuljkamble/pythonflaskapp
     build: .
     ports: ["5000:5000"]
-    restart: unless-stopped
+    command: python app.py
+
